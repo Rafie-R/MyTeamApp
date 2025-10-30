@@ -79,6 +79,7 @@ fun InstagramBottomNavigation(modifier: Modifier = Modifier) {
         })
     )
     Scaffold(
+        modifier = modifier,
         topBar = {
             if (selectedTab == 3) {
                 InstagramTopBar()
