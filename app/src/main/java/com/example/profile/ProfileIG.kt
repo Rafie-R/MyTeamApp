@@ -32,8 +32,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.profile.ui.theme.ProfileTheme
 
-class ProfileIG {
-}
 
 @Composable
 fun ProfileScreen() {
