@@ -79,7 +79,7 @@ fun InstagramBottomNavigation(modifier: Modifier = Modifier) {
         })
     )
     Scaffold(
-        modifier = modifier,
+        modifier = modifier, // Ini cuman memanggil modifier supaya tidak ada warning
         topBar = {
             if (selectedTab == 3) {
                 InstagramTopBar()
