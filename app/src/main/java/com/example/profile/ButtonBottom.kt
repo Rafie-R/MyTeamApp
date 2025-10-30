@@ -49,10 +49,10 @@ fun InstagramTopBar() {
         },
 
         actions = {
-            IconButton(onClick = { /* TODO: Notifikasi */ }) {
+            IconButton(onClick = {}) {
 //                Icon(Icons.Outlined.FavoriteBorder, contentDescription = "Likes")
             }
-            IconButton(onClick = { /* TODO: Pesan */ }) {
+            IconButton(onClick = {}) {
                 Icon(Icons.Outlined.Send, contentDescription = "Messages")
             }
         }

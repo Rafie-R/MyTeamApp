@@ -84,7 +84,7 @@ fun ProfileScreen() {
 
         // --- Edit Profile Button ---
         OutlinedButton(
-            onClick = { /* TODO */ },
+            onClick = {},
             modifier = Modifier.fillMaxWidth()
         ) {
             Text("Edit Profile")
